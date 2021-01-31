@@ -1,0 +1,403 @@
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* ********************** code start *********************
+  ************************** code start ********************/
+  
+  /*  header section start */
+  .header-section {
+    width: 136%;
+    background: url(../picture/phone.png) center top no-repeat;
+    background-size: contain;
+}
+  .navbar-light .navbar-toggler {
+    color: rgb(98 222 234 / 55%);
+    border-color: rgb(236 137 137 / 10%);
+    background: #f4f4;
+    margin-left: -300px;
+}
+.header-section .bg-light {
+  background: transparent !important;
+  padding: 28px 0px;
+  margin-right: 206px;
+}
+
+.d-flex {
+  display: flex!important;
+  background: #f4f4f4;
+}
+
+/* banner section start */
+
+.banner .inner-banner {
+  /* margin-left: -160px; */
+  width: 100%;
+  /* padding: 150px 0px; */
+  text-align: center;
+  margin-top: -183px;
+}
+.banner .inner-banner h4 {
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  color: #242f51;
+  /* border: 1px solid #242f51; */
+  /* border-radius: 35px; */
+  background: transparent;
+  margin-top: -69px;
+  margin-right: -59px;
+}
+.banner .inner-banner h1 {
+  font-size: 19px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #242f51;
+  margin-right: -116px;
+  margin-top: -20px;
+}
+.banner .inner-banner p {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #242f51;
+  margin-top: 5px;
+  margin-right: 110px;
+}
+.banner .inner-banner {
+  /* margin-left: -160px; */
+  width: 100%;
+  /* padding: 150px 0px; */
+  text-align: left;
+  margin-top: -183px;
+  margin-left: 19px;
+}
+.banner .inner-banner .btn-primary {
+  background: #f2f2f2;
+  border-radius: 35px;
+  font-size: 9px;
+  border: none;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 2px 6px;
+  /* margin: 17px 40px 0px -118px; */
+  transition: 1s;
+  margin-left: 0px;
+  margin-top: -9px;
+}
+/* banner end */
+
+/* feature section start */
+.feature-section .heading h3 {
+  text-align: center;
+  font-size: 32px;
+  padding: 0px 0px;
+  font-weight: 900;
+  margin-top: -210px;
+}
+.feature-section .feature-picture {
+  width: 0px;
+  padding: 25px;
+  margin-left: 150px;
+}
+.feature-section .inner-feature-pic img {
+  width: 83%;
+  margin-top: 100px;
+  margin-left: 45px;
+}
+/* feature section end */
+
+/* smart section start */
+.smart-jeckpot .smart-text p {
+  text-align: center;
+  margin-top: 39px;
+  font-weight: 700;
+}
+.smart-jeckpot .smart-text h2 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 46px;
+  border-right: 1px solid #bfbfbf;
+  font-weight: 700;
+  margin-right: 16px;
+  margin-top: -87px;
+}
+.smart-jeckpot .inner-smart {
+  padding: 80px;
+  margin-top: -59px;
+  text-align: center;
+}
+.footer-section .footer-text p {
+  color: #5f636e;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.footer-logu img {
+  width: 24%;
+  margin-top: 30px;
+}
+
+  /* ********************** code end *********************
+  ************************** code end ********************/
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* ********************** code start *********************
+  ************************** code start ********************/
+  .header-section {
+    width: 105%;
+    background: url(../picture/phone.png) center top no-repeat;
+    background-size: contain;
+    margin-left: 58px;
+}
+  .header-section .bg-light {
+    background: transparent !important;
+    padding: 28px 0px;
+    margin-right: 0px;
+}
+.banner .inner-banner {
+  margin-left: -160px;
+  width: 100%;
+  padding: 150px 0px;
+  text-align: center;
+  margin-top: -239px;
+}
+.banner .inner-banner h4 {
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #242f51;
+  /* border: 1px solid #242f51; */
+  border-radius: 8px;
+  background: #e2eaed;
+  margin-bottom: 17px;
+  /* margin-right: 44px; */
+  margin-left: 115px;
+}
+.banner .inner-banner h1 {
+  font-size: 19px;
+  line-height: 29px;
+  font-weight: 900;
+  color: #242f51;
+  margin-right: 11px;
+  margin-top: -13px;
+}
+.banner .inner-banner p {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #242f51;
+  margin-top: -10px;
+  margin-right: -8px;
+}
+.banner .inner-banner .btn-primary {
+  background: #f2f2f2;
+  border-radius: 35px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 500;
+  padding: 2px 4px;
+  margin: -7px -165px 0px -112px;
+  transition: 1s;
+}
+.feature-section .heading h3 {
+  text-align: center;
+  padding: 20px 0px;
+  margin-top: -73px;
+  font-weight: 800;
+}
+.feature-section .inner-feature-pic img {
+  width: 93%;
+  margin-top: 149px;
+  margin-left: 58px;
+}
+.feature-section .inner-feature-text p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #616368;
+  margin: 50px 0px;
+}
+.smart-jeckpot .smart-text p {
+    text-align: center;
+    margin-top: 30px;
+}
+.smart-jeckpot .smart-text h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 46px;
+  border-right: 1px solid #bfbfbf;
+  margin-right: -5px;
+}
+.feature-section .feature-picture {
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+}
+.smart-jeckpot .inner-smart {
+  padding: 80px;
+  margin-top: 30px;
+  text-align: center;
+}
+.footer-section .footer-text p {
+  color: #5f636e;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+.footer-logu img {
+  width: 20%;
+  margin-top: 30px;
+}
+
+
+  /* ********************** code end *********************
+  ************************** code end ********************/
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* ********************** code start *********************
+  ************************** code start ********************/
+  .header-section .navbar img {
+    width: 136px;
+    margin-left: 50px;
+}
+.banner .inner-banner {
+  margin-left: -160px;
+  width: 100%;
+  padding: 150px 0px;
+  text-align: center;
+  margin-top: -132px;
+}
+.banner .inner-banner h4 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #242f51;
+  /* border: 1px solid #242f51; */
+  border-radius: 35px;
+  background: #e2eaed;
+  margin-bottom: 30px;
+  margin-right: 279px;
+  margin-left: 197px;
+}
+.banner .inner-banner h1 {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 900;
+  color: #242f51;
+  margin-right: -14px;
+}
+.banner .inner-banner p {
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #242f51;
+  margin-top: -1px;
+  margin-right: 25px;
+}
+.banner .inner-banner .btn-primary {
+  background: #f2f2f2;
+  border-radius: 35px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 500;
+  padding: 6px 17px;
+  margin: -6px 40px 0px 113px;
+  transition: 1s;
+}
+.feature-section .heading h3 {
+  text-align: center;
+  padding: 20px 0px;
+  margin-top: -130px;
+  font-weight: 800;
+}
+.feature-section .feature-picture {
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+}
+.feature-section .inner-feature-pic img {
+  width: 106%;
+  margin-top: 50px;
+}
+.feature-section .inner-feature-text p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #616368;
+  margin: 40px 0px;
+}
+.smart-jeckpot .smart-text h2 {
+  text-align: center;
+  font-size: 31px;
+  line-height: 41px;
+  border-right: 1px solid #bfbfbf;
+  font-weight: 700;
+  margin-right: 20px;
+  margin-top: -100px;
+}
+.smart-jeckpot .smart-text p {
+  text-align: left;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.smart-jeckpot .inner-smart {
+  padding: 80px;
+  /* margin-top: 30px; */
+  text-align: center;
+  margin-bottom: -87px;
+}
+.footer-logu img {
+  width: 18%;
+  margin-top: 30px;
+}
+.footer-section .footer-text p {
+  color: #5f636e;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 29px;
+}
+
+
+
+
+  /* ********************** code end *********************
+  ************************** code end ********************/
+
+  
+}
